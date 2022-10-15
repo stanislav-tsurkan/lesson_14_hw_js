@@ -170,7 +170,7 @@ console.log(weekFn("Среда"));
  * При выполнении задания допускается использовать только тернарный оператор ?.
  * Использование операторов if, switch – запрещено.
  */
-
+/*
 function ageClassification(num) {
   return num < 0
     ? null
@@ -188,10 +188,10 @@ function ageClassification(num) {
     ? "долгожители"
     : null;
 }
+*/
 
-/*
 function ageClassification(num) {
-  return num === 0
+  return num > 0
     ? num > 24
       ? num > 44
         ? num > 65
@@ -207,7 +207,7 @@ function ageClassification(num) {
       : "детский возраст"
     : null;
 }
-*/
+
 console.log(ageClassification(0));
 console.log(ageClassification(24));
 console.log(ageClassification(44));
